@@ -1,0 +1,71 @@
+:root{
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
+}
+
+body{
+    margin: 0;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    color: var(--light-cyan);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--dark-blue);
+    height: 100vh;
+}
+
+.advice{
+    background-color: var(--dark-grayish-blue);
+    width: 100%;
+    margin: 0 1rem;
+    padding: 2rem 2rem 0 2rem;    
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    max-width: 700px;
+}
+
+.advice-title{
+    text-align: center;
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+.advice-quote{
+    font-size: 28px;
+    text-align: center;
+}
+
+.advice-divider{
+    margin: 1rem auto;
+}
+
+.advice-dice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(50%);
+    background-color: var(--neon-green);
+    border-radius: 50%;
+    padding: 1rem;
+    width: 30px;
+    height: 30px;
+}
+
+.advice-dice:hover{
+    box-shadow: 0 0 15px var(--neon-green);
+    cursor: pointer;
+}
+
+
