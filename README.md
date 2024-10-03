@@ -1,3 +1,5 @@
+![Design preview for the Advice generator app coding challenge](./design/desktop-preview.jpg)
+
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
 ## The challenge
